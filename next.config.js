@@ -33,7 +33,7 @@ const withPWA = require('next-pwa')({
 });
 
 const nextConfig = {
-  output: 'export',
+  output: 'export', // 10Oct2025: Added this line to export the website as a static site.
   reactStrictMode: true,
   experimental: {
     mdxRs: true
